@@ -6,6 +6,8 @@ using Toybox.Math as Math;
 
 class WatchFaceView extends Ui.WatchFace {
 
+	var i = 0;
+	var rectangle;
 	var colors = [
 		Gfx.COLOR_RED,
 		Gfx.COLOR_DK_RED,
@@ -18,8 +20,7 @@ class WatchFaceView extends Ui.WatchFace {
 		Gfx.COLOR_PURPLE,
 		Gfx.COLOR_PINK
 	];
-	var i = 0;
-	var rectangle;
+	
 
     //! Load your resources here
     function onLayout(dc) {
@@ -34,21 +35,45 @@ class WatchFaceView extends Ui.WatchFace {
 
     //! Update the view
     function onUpdate(dc) {
+    	i++;
     	View.onUpdate(dc);
 
 		dc.setColor(Gfx.COLOR_WHITE, colors[i]);
 		dc.clear();
-        i++;
-        if( i == colors.size )
+        
+        if( i == colors.size() )
         {
         	i = 0;
         }
 
+		// Puts the current time on the screen
         var clockTime = Sys.getClockTime();
-        var timeString = Lang.format("$1$:$2$", [clockTime.hour, clockTime.min.format("%.2d")]);
-        var view = View.findDrawableById("TimeLabel");
-        view.setText(timeString);
-		dc.drawText(dc.getWidth() / 2, dc.getHeight() / 2 - 15, Gfx.FONT_LARGE, timeString, Gfx.TEXT_JUSTIFY_CENTER);
+        var hour = clockTime.hour;
+        if (hour > 12)
+        {
+        	hour -= 12;
+        }
+        var timeString = Lang.format("$1$:$2$", [hour, clockTime.min.format("%.2d")]);
+        
+        // Step counter code
+        var numSteps = ActivityMonitor.getInfo().steps;
+        var stepGoal = ActivityMonitor.getInfo().stepGoal;
+        var percentOfGoal = numSteps / stepGoal * 100;
+        var stepBarHeight = 10;
+        
+        percentOfGoal = percentOfGoal.toString();
+		numSteps = numSteps.toString();
+        System.println(percentOfGoal);
+        
+        //dc.getHeight() - stepBarHeight
+
+		dc.setColor(Gfx.COLOR_WHITE, colors[i]);
+		dc.drawText(dc.getWidth() / 2, dc.getHeight() / 2, Gfx.FONT_NUMBER_HOT, timeString, Gfx.TEXT_JUSTIFY_CENTER);
+    	dc.drawText(dc.getWidth() / 2, 5, Gfx.FONT_NUMBER_HOT, numSteps, Gfx.TEXT_JUSTIFY_CENTER);
+    	
+    	dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_WHITE);
+    	// Docs are wrong, this uses background color
+    	dc.fillRectangle(dc.getWidth() / 2, dc.getHeight() / 2, 100, 20); 
     }
 
     //! Called when this View is removed from the screen. Save the

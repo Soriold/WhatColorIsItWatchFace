@@ -1,4 +1,5 @@
 
 	<layout id="WatchFace">
-	    <label id="TimeLabel" x="center" y="center" font="Gfx.FONT_LARGE" justification="Gfx.TEXT_JUSTIFY_CENTER" color="Gfx.COLOR_WHITE" background="Gfx.COLOR_WHITE" />
+	    <label id="TimeLabel" x="center" y="center" font="Gfx.FONT_LARGE" justification="Gfx.TEXT_JUSTIFY_VCENTER" color="Gfx.COLOR_WHITE" background="Gfx.COLOR_WHITE" />
+		<label id="StepCountLabel" x="center" y="center" font="Gfx.FONT_MEDIUM" color="Gfx.COLOR_WHITE"></label>
 	</layout>

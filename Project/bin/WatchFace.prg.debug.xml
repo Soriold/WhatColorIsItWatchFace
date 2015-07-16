@@ -1,28 +1,45 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <debugInfo>
 <pcToLineNum>
-<entry filename="D:\\Projects\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceApp.mc" lineNum="15" pc="268435464" symbol="getInitialView"/>
-<entry filename="D:\\Projects\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="26" pc="268435505" symbol="onLayout"/>
-<entry filename="D:\\Projects\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="37" pc="268435548" symbol="onUpdate"/>
-<entry filename="D:\\Projects\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="39" pc="268435568" symbol="onUpdate"/>
-<entry filename="D:\\Projects\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="40" pc="268435609" symbol="onUpdate"/>
-<entry filename="D:\\Projects\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="41" pc="268435621" symbol="onUpdate"/>
-<entry filename="D:\\Projects\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="42" pc="268435640" symbol="onUpdate"/>
-<entry filename="D:\\Projects\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="44" pc="268435666" symbol="onUpdate"/>
-<entry filename="D:\\Projects\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="47" pc="268435682" symbol="onUpdate"/>
-<entry filename="D:\\Projects\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="48" pc="268435699" symbol="onUpdate"/>
-<entry filename="D:\\Projects\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="49" pc="268435773" symbol="onUpdate"/>
-<entry filename="D:\\Projects\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="50" pc="268435797" symbol="onUpdate"/>
-<entry filename="D:\\Projects\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="51" pc="268435811" symbol="onUpdate"/>
-<entry filename="D:\\Projects\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="9" pc="268436182" symbol="&lt;init&gt;"/>
-<entry filename="Rez" lineNum="5" pc="268436429" symbol="&lt;init&gt;"/>
-<entry filename="Rez" lineNum="10" pc="268436416" symbol="&lt;init&gt;"/>
-<entry filename="Rez" lineNum="19" pc="268435902" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="20" pc="268435916" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="21" pc="268436013" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="22" pc="268436028" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="23" pc="268436080" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="24" pc="268436126" symbol="WatchFace"/>
+<entry filename="D:\\projects\\justcodeit\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceApp.mc" lineNum="15" pc="268435464" symbol="getInitialView"/>
+<entry filename="D:\\projects\\justcodeit\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="27" pc="268435505" symbol="onLayout"/>
+<entry filename="D:\\projects\\justcodeit\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="38" pc="268435548" symbol="onUpdate"/>
+<entry filename="D:\\projects\\justcodeit\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="39" pc="268435567" symbol="onUpdate"/>
+<entry filename="D:\\projects\\justcodeit\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="41" pc="268435587" symbol="onUpdate"/>
+<entry filename="D:\\projects\\justcodeit\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="42" pc="268435628" symbol="onUpdate"/>
+<entry filename="D:\\projects\\justcodeit\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="44" pc="268435640" symbol="onUpdate"/>
+<entry filename="D:\\projects\\justcodeit\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="46" pc="268435669" symbol="onUpdate"/>
+<entry filename="D:\\projects\\justcodeit\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="50" pc="268435685" symbol="onUpdate"/>
+<entry filename="D:\\projects\\justcodeit\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="51" pc="268435702" symbol="onUpdate"/>
+<entry filename="D:\\projects\\justcodeit\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="52" pc="268435712" symbol="onUpdate"/>
+<entry filename="D:\\projects\\justcodeit\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="54" pc="268435723" symbol="onUpdate"/>
+<entry filename="D:\\projects\\justcodeit\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="56" pc="268435736" symbol="onUpdate"/>
+<entry filename="D:\\projects\\justcodeit\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="59" pc="268435804" symbol="onUpdate"/>
+<entry filename="D:\\projects\\justcodeit\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="60" pc="268435829" symbol="onUpdate"/>
+<entry filename="D:\\projects\\justcodeit\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="61" pc="268435854" symbol="onUpdate"/>
+<entry filename="D:\\projects\\justcodeit\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="62" pc="268435867" symbol="onUpdate"/>
+<entry filename="D:\\projects\\justcodeit\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="64" pc="268435874" symbol="onUpdate"/>
+<entry filename="D:\\projects\\justcodeit\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="65" pc="268435887" symbol="onUpdate"/>
+<entry filename="D:\\projects\\justcodeit\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="66" pc="268435900" symbol="onUpdate"/>
+<entry filename="D:\\projects\\justcodeit\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="70" pc="268435920" symbol="onUpdate"/>
+<entry filename="D:\\projects\\justcodeit\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="71" pc="268435961" symbol="onUpdate"/>
+<entry filename="D:\\projects\\justcodeit\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="72" pc="268436033" symbol="onUpdate"/>
+<entry filename="D:\\projects\\justcodeit\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="74" pc="268436093" symbol="onUpdate"/>
+<entry filename="D:\\projects\\justcodeit\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="76" pc="268436129" symbol="onUpdate"/>
+<entry filename="D:\\projects\\justcodeit\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="11" pc="268436692" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="5" pc="268436939" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="10" pc="268436926" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="19" pc="268436198" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="20" pc="268436212" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="21" pc="268436309" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="22" pc="268436324" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="23" pc="268436376" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="24" pc="268436422" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="25" pc="268436436" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="26" pc="268436513" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="27" pc="268436528" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="28" pc="268436580" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="29" pc="268436626" symbol="WatchFace"/>
 </pcToLineNum>
 <symbolTable>
 <entry id="8389359" symbol="&lt;gre&gt;"/>
@@ -523,7 +540,7 @@
 <entry id="8388612" module="true" symbol="Toybox_Test"/>
 <entry field="true" id="8389411" symbol="BATT_STATUS_NEW"/>
 <entry id="8389028" object="true" symbol="MenuInputDelegate"/>
-<entry field="true" id="12" symbol="rectangle"/>
+<entry field="true" id="11" symbol="rectangle"/>
 <entry id="8388705" method="true" symbol="callback"/>
 <entry field="true" id="8389528" symbol="batteryVoltage"/>
 <entry field="true" id="8389314" symbol="latitude"/>
@@ -575,7 +592,7 @@
 <entry id="8389278" symbol="mPropertiesChanged"/>
 <entry field="true" id="8388970" symbol="TONE_ALERT_HI"/>
 <entry field="true" id="8389174" symbol="TEXT_JUSTIFY_LEFT"/>
-<entry field="true" id="10" symbol="colors"/>
+<entry field="true" id="12" symbol="colors"/>
 <entry id="8388923" method="true" symbol="today"/>
 <entry field="true" id="8389412" symbol="BATT_STATUS_GOOD"/>
 <entry field="true" id="8389222" symbol="MSG_CODE_EVENT_CHANNEL_CLOSED"/>
@@ -919,7 +936,7 @@
 <entry field="true" id="8389455" symbol="WEIGHT_SCALE_STATUS_DISABLED"/>
 <entry id="8389337" symbol="saturday"/>
 <entry id="8389513" method="true" symbol="getCalculatedTorque"/>
-<entry field="true" id="11" symbol="i"/>
+<entry field="true" id="10" symbol="i"/>
 <entry id="8389481" symbol="setListener"/>
 <entry field="true" id="8388975" symbol="TONE_RESET"/>
 <entry id="8389466" object="true" symbol="WeightScaleCapabilities"/>
