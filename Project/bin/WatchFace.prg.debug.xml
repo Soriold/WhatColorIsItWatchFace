@@ -1,30 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <debugInfo>
 <pcToLineNum>
-<entry filename="C:\\Users\\oriold\\Documents\\workspace\\WatchFace\\source\\WatchFaceApp.mc" lineNum="15" pc="268435464" symbol="getInitialView"/>
-<entry filename="C:\\Users\\oriold\\Documents\\workspace\\WatchFace\\source\\WatchFaceView.mc" lineNum="15" pc="268435505" symbol="onLayout"/>
-<entry filename="C:\\Users\\oriold\\Documents\\workspace\\WatchFace\\source\\WatchFaceView.mc" lineNum="27" pc="268435548" symbol="onUpdate"/>
-<entry filename="C:\\Users\\oriold\\Documents\\workspace\\WatchFace\\source\\WatchFaceView.mc" lineNum="28" pc="268435565" symbol="onUpdate"/>
-<entry filename="C:\\Users\\oriold\\Documents\\workspace\\WatchFace\\source\\WatchFaceView.mc" lineNum="29" pc="268435639" symbol="onUpdate"/>
-<entry filename="C:\\Users\\oriold\\Documents\\workspace\\WatchFace\\source\\WatchFaceView.mc" lineNum="30" pc="268435663" symbol="onUpdate"/>
-<entry filename="C:\\Users\\oriold\\Documents\\workspace\\WatchFace\\source\\WatchFaceView.mc" lineNum="32" pc="268435677" symbol="onUpdate"/>
-<entry filename="C:\\Users\\oriold\\Documents\\workspace\\WatchFace\\source\\WatchFaceView.mc" lineNum="33" pc="268435687" symbol="onUpdate"/>
-<entry filename="C:\\Users\\oriold\\Documents\\workspace\\WatchFace\\source\\WatchFaceView.mc" lineNum="34" pc="268435697" symbol="onUpdate"/>
-<entry filename="C:\\Users\\oriold\\Documents\\workspace\\WatchFace\\source\\WatchFaceView.mc" lineNum="36" pc="268435707" symbol="onUpdate"/>
-<entry filename="C:\\Users\\oriold\\Documents\\workspace\\WatchFace\\source\\WatchFaceView.mc" lineNum="38" pc="268435759" symbol="onUpdate"/>
-<entry filename="C:\\Users\\oriold\\Documents\\workspace\\WatchFace\\source\\WatchFaceView.mc" lineNum="40" pc="268435781" symbol="onUpdate"/>
-<entry filename="C:\\Users\\oriold\\Documents\\workspace\\WatchFace\\source\\WatchFaceView.mc" lineNum="41" pc="268435805" symbol="onUpdate"/>
-<entry filename="C:\\Users\\oriold\\Documents\\workspace\\WatchFace\\source\\WatchFaceView.mc" lineNum="42" pc="268435834" symbol="onUpdate"/>
-<entry filename="C:\\Users\\oriold\\Documents\\workspace\\WatchFace\\source\\WatchFaceView.mc" lineNum="45" pc="268435853" symbol="onUpdate"/>
-<entry filename="C:\\Users\\oriold\\Documents\\workspace\\WatchFace\\source\\WatchFaceView.mc" lineNum="9" pc="268436166" symbol="&lt;init&gt;"/>
-<entry filename="Rez" lineNum="5" pc="268436413" symbol="&lt;init&gt;"/>
-<entry filename="Rez" lineNum="10" pc="268436400" symbol="&lt;init&gt;"/>
-<entry filename="Rez" lineNum="19" pc="268435886" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="20" pc="268435900" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="21" pc="268435997" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="22" pc="268436012" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="23" pc="268436064" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="24" pc="268436110" symbol="WatchFace"/>
+<entry filename="D:\\projects\\justcodeit\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceApp.mc" lineNum="15" pc="268435464" symbol="getInitialView"/>
+<entry filename="D:\\projects\\justcodeit\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="26" pc="268435505" symbol="onLayout"/>
+<entry filename="D:\\projects\\justcodeit\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="38" pc="268435548" symbol="onUpdate"/>
+<entry filename="D:\\projects\\justcodeit\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="39" pc="268435565" symbol="onUpdate"/>
+<entry filename="D:\\projects\\justcodeit\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="40" pc="268435639" symbol="onUpdate"/>
+<entry filename="D:\\projects\\justcodeit\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="41" pc="268435663" symbol="onUpdate"/>
+<entry filename="D:\\projects\\justcodeit\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="43" pc="268435677" symbol="onUpdate"/>
+<entry filename="D:\\projects\\justcodeit\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="44" pc="268435687" symbol="onUpdate"/>
+<entry filename="D:\\projects\\justcodeit\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="46" pc="268435697" symbol="onUpdate"/>
+<entry filename="D:\\projects\\justcodeit\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="47" pc="268435721" symbol="onUpdate"/>
+<entry filename="D:\\projects\\justcodeit\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="50" pc="268435753" symbol="onUpdate"/>
+<entry filename="D:\\projects\\justcodeit\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="9" pc="268436066" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="5" pc="268436313" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="10" pc="268436300" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="19" pc="268435786" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="20" pc="268435800" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="21" pc="268435897" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="22" pc="268435912" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="23" pc="268435964" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="24" pc="268436010" symbol="WatchFace"/>
 </pcToLineNum>
 <symbolTable>
 <entry id="8389359" symbol="&lt;gre&gt;"/>
@@ -688,6 +684,7 @@
 <entry id="8389107" method="true" symbol="setBitmap"/>
 <entry id="8388883" method="true" symbol="discard"/>
 <entry id="8389575" symbol="mErrorCode"/>
+<entry field="true" id="11" symbol="numColors"/>
 <entry field="true" id="8389487" symbol="state"/>
 <entry id="8389353" symbol="&lt;dan&gt;"/>
 <entry field="true" id="8388840" symbol="SPORT_TRAINING"/>
@@ -920,7 +917,6 @@
 <entry field="true" id="8389455" symbol="WEIGHT_SCALE_STATUS_DISABLED"/>
 <entry id="8389337" symbol="saturday"/>
 <entry id="8389513" method="true" symbol="getCalculatedTorque"/>
-<entry field="true" id="11" symbol="i"/>
 <entry id="8389481" symbol="setListener"/>
 <entry field="true" id="8388975" symbol="TONE_RESET"/>
 <entry id="8389466" object="true" symbol="WeightScaleCapabilities"/>

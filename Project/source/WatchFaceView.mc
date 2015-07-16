@@ -6,9 +6,20 @@ using Toybox.Math as Math;
 
 class WatchFaceView extends Ui.WatchFace {
 
-	var colors = [ Gfx.COLOR_RED, Gfx.COLOR_DK_RED, Gfx.COLOR_ORANGE, Gfx.COLOR_YELLOW, Gfx.COLOR_GREEN,
-					Gfx.COLOR_DK_GREEN, Gfx.COLOR_BLUE, Gfx.COLOR_DK_BLUE, Gfx.COLOR_PURPLE, Gfx.COLOR_PINK ];
-	var i = 0;
+	var colors = [ 
+		Gfx.COLOR_RED, 
+		Gfx.COLOR_DK_RED, 
+		Gfx.COLOR_ORANGE, 
+		Gfx.COLOR_YELLOW, 
+		Gfx.COLOR_GREEN,
+		Gfx.COLOR_DK_GREEN, 
+		Gfx.COLOR_BLUE, 
+		Gfx.COLOR_DK_BLUE, 
+		Gfx.COLOR_PURPLE, 
+		Gfx.COLOR_PINK 
+	];
+	var numColors = 10;
+
 
     //! Load your resources here
     function onLayout(dc) {
@@ -30,16 +41,10 @@ class WatchFaceView extends Ui.WatchFace {
         view.setText(timeString);
 
         var hour = clockTime.hour;
-        var min = clockTime.min;
-        var sec = clockTime.sec;
-
-        var color = hour.format("%i") + min.format("%i") + sec.format("%i");
-
-        var hex = color.toNumber().toLong();
+        var minute = clockTime.min;
 
         var layout = View.findDrawableById("WatchFace");
-        view.setColor( colors[i] );
-        i++;
+        view.setColor( colors[minute % numColors] );
 
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
