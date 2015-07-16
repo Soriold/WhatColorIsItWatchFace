@@ -6,20 +6,20 @@ using Toybox.Math as Math;
 
 class WatchFaceView extends Ui.WatchFace {
 
-	var colors = [ 
-		Gfx.COLOR_RED, 
-		Gfx.COLOR_DK_RED, 
-		Gfx.COLOR_ORANGE, 
-		Gfx.COLOR_YELLOW, 
+	var colors = [
+		Gfx.COLOR_RED,
+		Gfx.COLOR_DK_RED,
+		Gfx.COLOR_ORANGE,
+		Gfx.COLOR_YELLOW,
 		Gfx.COLOR_GREEN,
-		Gfx.COLOR_DK_GREEN, 
-		Gfx.COLOR_BLUE, 
-		Gfx.COLOR_DK_BLUE, 
-		Gfx.COLOR_PURPLE, 
-		Gfx.COLOR_PINK 
+		Gfx.COLOR_DK_GREEN,
+		Gfx.COLOR_BLUE,
+		Gfx.COLOR_DK_BLUE,
+		Gfx.COLOR_PURPLE,
+		Gfx.COLOR_PINK
 	];
-	var numColors = 10;
-
+	var i = 0;
+	var rectangle;
 
     //! Load your resources here
     function onLayout(dc) {
@@ -34,20 +34,21 @@ class WatchFaceView extends Ui.WatchFace {
 
     //! Update the view
     function onUpdate(dc) {
-        // Get and show the current time
+    	View.onUpdate(dc);
+
+		dc.setColor(Gfx.COLOR_WHITE, colors[i]);
+		dc.clear();
+        i++;
+        if( i == colors.size )
+        {
+        	i = 0;
+        }
+
         var clockTime = Sys.getClockTime();
         var timeString = Lang.format("$1$:$2$", [clockTime.hour, clockTime.min.format("%.2d")]);
         var view = View.findDrawableById("TimeLabel");
         view.setText(timeString);
-
-        var hour = clockTime.hour;
-        var minute = clockTime.min;
-
-        var layout = View.findDrawableById("WatchFace");
-        view.setColor( colors[minute % numColors] );
-
-        // Call the parent onUpdate function to redraw the layout
-        View.onUpdate(dc);
+		dc.drawText(dc.getWidth() / 2, dc.getHeight() / 2 - 15, Gfx.FONT_LARGE, timeString, Gfx.TEXT_JUSTIFY_CENTER);
     }
 
     //! Called when this View is removed from the screen. Save the
