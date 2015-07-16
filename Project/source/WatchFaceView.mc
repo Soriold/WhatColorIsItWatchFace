@@ -41,7 +41,8 @@ class WatchFaceView extends Ui.WatchFace {
     }
 
     //! Update the view
-    function onUpdate(dc) {
+    function onUpdate(dc)
+    {
     	View.onUpdate(dc);
 
 		dc.setColor(Gfx.COLOR_WHITE, colors[i]);
