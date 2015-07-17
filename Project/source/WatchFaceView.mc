@@ -20,7 +20,8 @@ class WatchFaceView extends Ui.WatchFace {
     var font =              Gfx.FONT_NUMBER_MEDIUM;
     var textDimensions =    [];
     var textHeight =        0;
-    var smilies = 			new [6];
+    var smilies =           new [6];
+    var Settings =          Sys.DeviceSettings;
 
     // All available colors
     var colors = [
@@ -91,7 +92,7 @@ class WatchFaceView extends Ui.WatchFace {
           dc.fillCircle( (width*5) + 53, 20, 20 );
           dc.drawBitmap( (width*5) + 38, 5, smilies[1]);
           dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_WHITE);
-          dc.fillRectangle(10, 15, width, 10);
+          dc.fillRoundedRectangle(10, 15, width, 10, 1);
         }
         if( level > 1 )
         {
@@ -99,7 +100,7 @@ class WatchFaceView extends Ui.WatchFace {
           dc.fillCircle( (width*5) + 53, 20, 20 );
           dc.drawBitmap( (width*5) + 38, 5, smilies[2]);
           dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_WHITE);
-          dc.fillRectangle(10 + width + 5, 15, width, 10);
+          dc.fillRoundedRectangle(10 + width + 5, 15, width, 10, 1);
         }
         if( level > 2 )
         {
@@ -107,7 +108,7 @@ class WatchFaceView extends Ui.WatchFace {
           dc.fillCircle( (width*5) + 53, 20, 20 );
           dc.drawBitmap( (width*5) + 38, 5, smilies[3]);
           dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_WHITE);
-          dc.fillRectangle(10 + (2*width) + 10, 15, width, 10);
+          dc.fillRoundedRectangle(10 + (2*width) + 10, 15, width, 10, 1);
         }
         if( level > 3 )
         {
@@ -115,7 +116,7 @@ class WatchFaceView extends Ui.WatchFace {
           dc.fillCircle( (width*5) + 53, 20, 20 );
           dc.drawBitmap( (width*5) + 38, 5, smilies[4]);
           dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_WHITE);
-          dc.fillRectangle(10 + (3*width) + 15, 15, width, 10);
+          dc.fillRoundedRectangle(10 + (3*width) + 15, 15, width, 10, 1);
         }
         if( level > 4 )
         {
@@ -123,7 +124,7 @@ class WatchFaceView extends Ui.WatchFace {
           dc.fillCircle( (width*5) + 53, 20, 20 );
           dc.drawBitmap( (width*5) + 38, 5, smilies[5]);
           dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_WHITE);
-          dc.fillRectangle(10 + (4*width) + 20, 15, width, 10);
+          dc.fillRoundedRectangle(10 + (4*width) + 20, 15, width, 10, 1);
         }
 
         dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_WHITE);
@@ -135,6 +136,12 @@ class WatchFaceView extends Ui.WatchFace {
 
         // Puts the current time on the screen
         hour = clockTime.hour;
+        // API is broken for System::DeviceSettings.is24Hour
+        // So we hard-code out military time
+        if(hour > 12)
+        {
+            hour -= 12;
+        }
         minute = clockTime.min;
         timeString = Lang.format("$1$:$2$", [hour, clockTime.min.format("%.2d")]);
         textDimensions = dc.getTextDimensions(timeString, font);
