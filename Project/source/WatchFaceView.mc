@@ -20,7 +20,8 @@ class WatchFaceView extends Ui.WatchFace {
     var font =              Gfx.FONT_NUMBER_MEDIUM;
     var textDimensions =    [];
     var textHeight =        0;
-    var smilies = 			new [6];
+    var smilies =           new [6];
+    var Settings =          Sys.DeviceSettings;
 
     // All available colors
     var colors = [
@@ -135,6 +136,12 @@ class WatchFaceView extends Ui.WatchFace {
 
         // Puts the current time on the screen
         hour = clockTime.hour;
+        // API is broken for System::DeviceSettings.is24Hour
+        // So we hard-code out military time
+        if(hour > 12)
+        {
+            hour -= 12;
+        }
         minute = clockTime.min;
         timeString = Lang.format("$1$:$2$", [hour, clockTime.min.format("%.2d")]);
         textDimensions = dc.getTextDimensions(timeString, font);
