@@ -1,5 +1,12 @@
 <resources>
     <string id="AppName">WatchFace</string>
-
+	<bitmaps>
+	    <bitmap id="level_0" filename="images/level_0.png" />
+	    <bitmap id="level_1" filename="images/level_1.png" />
+	    <bitmap id="level_2" filename="images/level_2.png" />
+	    <bitmap id="level_3" filename="images/level_3.png" />
+	    <bitmap id="level_4" filename="images/level_4.png" />
+	    <bitmap id="level_5" filename="images/level_5.png" />
+	</bitmaps>
     <bitmap id="LauncherIcon" filename="images/launcher_icon.png" />
 </resources>
