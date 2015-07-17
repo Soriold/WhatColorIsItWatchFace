@@ -83,7 +83,7 @@ class WatchFaceView extends Ui.WatchFace {
         {
           dc.setColor(colors[i], colors[i]);
           dc.fillCircle( (width*5) + 53, 20, 20 );
-          dc.drawBitmap( (width*5) + 38, 5, smilies[0]);
+          dc.drawBitmap( (width*5) + 38, 5, smilies[0] );
         }
         if( level > 0 )
         {
@@ -126,12 +126,12 @@ class WatchFaceView extends Ui.WatchFace {
           dc.fillRectangle(10 + (4*width) + 20, 15, width, 10);
         }
 
-      dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_WHITE);
-        dc.drawRectangle(10, 15, width, 10);
-        dc.drawRectangle(10 + width + 5, 15, width, 10);
-        dc.drawRectangle(10 + (2*width) + 10, 15, width, 10);
-        dc.drawRectangle(10 + (3*width) + 15, 15, width, 10);
-        dc.drawRectangle(10 + (4*width) + 20, 15, width, 10);
+        dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_WHITE);
+        dc.drawRoundedRectangle(10, 15, width, 10, 1);
+        dc.drawRoundedRectangle(10 + width + 5, 15, width, 10, 1 );
+        dc.drawRoundedRectangle(10 + (2*width) + 10, 15, width, 10, 1);
+        dc.drawRoundedRectangle(10 + (3*width) + 15, 15, width, 10, 1);
+        dc.drawRoundedRectangle(10 + (4*width) + 20, 15, width, 10, 1);
 
         // Puts the current time on the screen
         hour = clockTime.hour;
