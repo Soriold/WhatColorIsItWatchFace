@@ -126,7 +126,7 @@ class WatchFaceView extends Ui.WatchFace {
           dc.fillRectangle(10 + (4*width) + 20, 15, width, 10);
         }
 
-    dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_WHITE);
+      dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_WHITE);
         dc.drawRectangle(10, 15, width, 10);
         dc.drawRectangle(10 + width + 5, 15, width, 10);
         dc.drawRectangle(10 + (2*width) + 10, 15, width, 10);
