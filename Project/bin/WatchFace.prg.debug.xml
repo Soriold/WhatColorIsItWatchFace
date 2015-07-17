@@ -1,47 +1,53 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <debugInfo>
 <pcToLineNum>
-<entry filename="D:\\projects\\justcodeit\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceApp.mc" lineNum="15" pc="268435464" symbol="getInitialView"/>
-<entry filename="D:\\projects\\justcodeit\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="27" pc="268435505" symbol="onLayout"/>
-<entry filename="D:\\projects\\justcodeit\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="38" pc="268435548" symbol="onUpdate"/>
-<entry filename="D:\\projects\\justcodeit\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="39" pc="268435567" symbol="onUpdate"/>
-<entry filename="D:\\projects\\justcodeit\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="41" pc="268435587" symbol="onUpdate"/>
-<entry filename="D:\\projects\\justcodeit\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="42" pc="268435628" symbol="onUpdate"/>
-<entry filename="D:\\projects\\justcodeit\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="44" pc="268435640" symbol="onUpdate"/>
-<entry filename="D:\\projects\\justcodeit\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="46" pc="268435669" symbol="onUpdate"/>
-<entry filename="D:\\projects\\justcodeit\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="50" pc="268435685" symbol="onUpdate"/>
-<entry filename="D:\\projects\\justcodeit\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="51" pc="268435702" symbol="onUpdate"/>
-<entry filename="D:\\projects\\justcodeit\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="52" pc="268435712" symbol="onUpdate"/>
-<entry filename="D:\\projects\\justcodeit\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="54" pc="268435723" symbol="onUpdate"/>
-<entry filename="D:\\projects\\justcodeit\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="56" pc="268435736" symbol="onUpdate"/>
-<entry filename="D:\\projects\\justcodeit\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="59" pc="268435804" symbol="onUpdate"/>
-<entry filename="D:\\projects\\justcodeit\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="60" pc="268435829" symbol="onUpdate"/>
-<entry filename="D:\\projects\\justcodeit\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="61" pc="268435854" symbol="onUpdate"/>
-<entry filename="D:\\projects\\justcodeit\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="62" pc="268435867" symbol="onUpdate"/>
-<entry filename="D:\\projects\\justcodeit\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="64" pc="268435874" symbol="onUpdate"/>
-<entry filename="D:\\projects\\justcodeit\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="65" pc="268435887" symbol="onUpdate"/>
-<entry filename="D:\\projects\\justcodeit\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="66" pc="268435900" symbol="onUpdate"/>
-<entry filename="D:\\projects\\justcodeit\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="70" pc="268435920" symbol="onUpdate"/>
-<entry filename="D:\\projects\\justcodeit\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="71" pc="268435961" symbol="onUpdate"/>
-<entry filename="D:\\projects\\justcodeit\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="72" pc="268436033" symbol="onUpdate"/>
-<entry filename="D:\\projects\\justcodeit\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="74" pc="268436093" symbol="onUpdate"/>
-<entry filename="D:\\projects\\justcodeit\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="76" pc="268436129" symbol="onUpdate"/>
-<entry filename="D:\\projects\\justcodeit\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="11" pc="268436692" symbol="&lt;init&gt;"/>
-<entry filename="Rez" lineNum="5" pc="268436939" symbol="&lt;init&gt;"/>
-<entry filename="Rez" lineNum="10" pc="268436926" symbol="&lt;init&gt;"/>
-<entry filename="Rez" lineNum="19" pc="268436198" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="20" pc="268436212" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="21" pc="268436309" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="22" pc="268436324" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="23" pc="268436376" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="24" pc="268436422" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="25" pc="268436436" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="26" pc="268436513" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="27" pc="268436528" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="28" pc="268436580" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="29" pc="268436626" symbol="WatchFace"/>
+<entry filename="C:\\Users\\Daniel\\Desktop\\GitHub\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceApp.mc" lineNum="15" pc="268435464" symbol="getInitialView"/>
+<entry filename="C:\\Users\\Daniel\\Desktop\\GitHub\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="40" pc="268435505" symbol="onLayout"/>
+<entry filename="C:\\Users\\Daniel\\Desktop\\GitHub\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="51" pc="268435548" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Daniel\\Desktop\\GitHub\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="53" pc="268435568" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Daniel\\Desktop\\GitHub\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="56" pc="268435585" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Daniel\\Desktop\\GitHub\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="58" pc="268435618" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Daniel\\Desktop\\GitHub\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="61" pc="268435637" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Daniel\\Desktop\\GitHub\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="63" pc="268435666" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Daniel\\Desktop\\GitHub\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="67" pc="268435685" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Daniel\\Desktop\\GitHub\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="68" pc="268435744" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Daniel\\Desktop\\GitHub\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="71" pc="268435756" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Daniel\\Desktop\\GitHub\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="72" pc="268435772" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Daniel\\Desktop\\GitHub\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="73" pc="268435788" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Daniel\\Desktop\\GitHub\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="74" pc="268435868" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Daniel\\Desktop\\GitHub\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="75" pc="268435903" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Daniel\\Desktop\\GitHub\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="78" pc="268435925" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Daniel\\Desktop\\GitHub\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="79" pc="268435956" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Daniel\\Desktop\\GitHub\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="81" pc="268435987" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Daniel\\Desktop\\GitHub\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="83" pc="268436004" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Daniel\\Desktop\\GitHub\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="86" pc="268436020" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Daniel\\Desktop\\GitHub\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="88" pc="268436054" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Daniel\\Desktop\\GitHub\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="90" pc="268436071" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Daniel\\Desktop\\GitHub\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="94" pc="268436093" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Daniel\\Desktop\\GitHub\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="97" pc="268436121" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Daniel\\Desktop\\GitHub\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="100" pc="268436146" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Daniel\\Desktop\\GitHub\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="101" pc="268436187" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Daniel\\Desktop\\GitHub\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="104" pc="268436274" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Daniel\\Desktop\\GitHub\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="106" pc="268436310" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Daniel\\Desktop\\GitHub\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="19" pc="268436870" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\Daniel\\Desktop\\GitHub\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="20" pc="268436890" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\Daniel\\Desktop\\GitHub\\WhatColorIsItWatchFace\\Project\\source\\WatchFaceView.mc" lineNum="24" pc="268436904" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="5" pc="268437151" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="10" pc="268437138" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="19" pc="268436376" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="20" pc="268436390" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="21" pc="268436487" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="22" pc="268436502" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="23" pc="268436554" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="24" pc="268436600" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="25" pc="268436614" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="26" pc="268436691" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="27" pc="268436706" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="28" pc="268436758" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="29" pc="268436804" symbol="WatchFace"/>
 </pcToLineNum>
 <symbolTable>
+<entry field="true" id="15" symbol="timeString"/>
 <entry id="8389359" symbol="&lt;gre&gt;"/>
 <entry id="8389061" symbol="mMode"/>
 <entry field="true" id="8388831" symbol="SPORT_RUNNING"/>
@@ -72,7 +78,6 @@
 <entry field="true" id="8388738" symbol="currentSpeed"/>
 <entry id="8389085" symbol="mDisplayString"/>
 <entry id="8388676" method="true" symbol="testTypeCreation"/>
-<entry id="8389569" symbol="mSettings"/>
 <entry field="true" id="8388852" symbol="SUB_SPORT_STREET"/>
 <entry id="8388910" method="true" symbol="getHistory"/>
 <entry id="2" module="true" symbol="globals_Rez"/>
@@ -87,7 +92,7 @@
 <entry id="8389548" symbol="&lt;tha&gt;"/>
 <entry field="true" id="8388807" symbol="BLE_REQUEST_TOO_LARGE"/>
 <entry id="8388819" method="true" symbol="makeImageRequest"/>
-<entry id="13" module="true" symbol="Menus"/>
+<entry id="19" module="true" symbol="Menus"/>
 <entry id="3" module="true" symbol="globals_Rez_Drawables"/>
 <entry id="8388630" module="true" symbol="Toybox_Position"/>
 <entry id="8389354" symbol="&lt;dut&gt;"/>
@@ -132,7 +137,7 @@
 <entry id="8388659" method="true" symbol="testAbs"/>
 <entry field="true" id="8388989" symbol="dutyCycle"/>
 <entry id="8389043" object="true" symbol="ProgressBar"/>
-<entry field="true" id="16" symbol="AppName"/>
+<entry field="true" id="22" symbol="AppName"/>
 <entry field="true" id="8388927" symbol="SECONDS_PER_YEAR"/>
 <entry id="8389418" object="true" symbol="CommonData"/>
 <entry id="8389114" method="true" symbol="getType"/>
@@ -148,13 +153,14 @@
 <entry id="8389184" method="true" symbol="drawLine"/>
 <entry id="8389250" symbol="timestamp"/>
 <entry id="8388877" method="true" symbol="createSession"/>
-<entry field="true" id="15" symbol="LauncherIcon"/>
+<entry field="true" id="21" symbol="LauncherIcon"/>
 <entry id="8388616" module="true" symbol="Toybox_Communications"/>
 <entry field="true" id="8389380" symbol="OBSCURE_TOP"/>
 <entry field="true" id="8389201" symbol="MSG_ID_SEARCH_TIMEOUT"/>
 <entry id="8389057" method="true" symbol="pageCtrlNative"/>
 <entry id="8389493" method="true" symbol="getWeightScaleStatus"/>
-<entry id="8388649" module="true" object="true" symbol="Test"/>
+<entry id="8388649" module="true" symbol="Test"/>
+<entry field="true" id="14" symbol="percentOfGoal"/>
 <entry field="true" id="8388837" symbol="SPORT_SOCCER"/>
 <entry field="true" id="8389496" symbol="basalMetabolicRate"/>
 <entry field="true" id="8388958" symbol="speed"/>
@@ -174,7 +180,6 @@
 <entry field="true" id="8388963" symbol="altitude"/>
 <entry field="true" id="8389200" symbol="MSG_ID_CHANNEL_PERIOD"/>
 <entry id="8389463" object="true" symbol="WeightScaleUserProfile"/>
-<entry field="true" id="8389563" symbol="KEY_MODE"/>
 <entry id="8389190" method="true" symbol="drawText"/>
 <entry id="8389105" symbol="mBitmapData"/>
 <entry id="8389425" object="true" symbol="Device"/>
@@ -244,12 +249,12 @@
 <entry id="8388886" symbol="Toybox_ActivityRecording_Session"/>
 <entry id="8388687" method="true" symbol="testLocationSemicircles"/>
 <entry field="true" id="8389216" symbol="MSG_CODE_EVENT_RX_SEARCH_TIMEOUT"/>
-<entry field="true" id="8389560" symbol="KEY_RESET"/>
 <entry field="true" id="8388952" symbol="SENSOR_BIKEPOWER"/>
 <entry field="true" id="8388853" symbol="SUB_SPORT_TRAIL"/>
 <entry field="true" id="8389203" symbol="MSG_ID_NETWORK_KEY"/>
 <entry id="8388774" method="true" symbol="abs"/>
 <entry id="8389098" method="true" symbol="onTap"/>
+<entry field="true" id="16" symbol="textDimensions"/>
 <entry field="true" id="8389416" symbol="BATT_STATUS_INVALID"/>
 <entry field="true" id="8389417" symbol="BATT_STATUS_CNT"/>
 <entry id="8388759" object="true" symbol="Long"/>
@@ -259,7 +264,7 @@
 <entry id="8389142" method="true" symbol="getProfile"/>
 <entry id="8389188" method="true" symbol="fillRectangle"/>
 <entry id="8388729" object="true" symbol="Info"/>
-<entry id="14" module="true" symbol="Layouts"/>
+<entry id="20" module="true" symbol="Layouts"/>
 <entry id="8388710" object="true" symbol="Stats"/>
 <entry field="true" id="8389152" symbol="FONT_XTINY"/>
 <entry id="8389189" method="true" symbol="fillRoundedRectangle"/>
@@ -269,7 +274,6 @@
 <entry field="true" id="8388999" symbol="KEY_DOWN_LEFT"/>
 <entry id="8388885" method="true" symbol="getGeometry"/>
 <entry id="8389082" method="true" symbol="onNextMode"/>
-<entry field="true" id="8389551" symbol="PRESS_TYPE_UP"/>
 <entry id="8389279" method="true" symbol="onStart"/>
 <entry field="true" id="8389419" symbol="DEVICE_STATE_DEAD"/>
 <entry field="true" id="8388969" symbol="TONE_MSG"/>
@@ -304,7 +308,6 @@
 <entry field="true" id="8389381" symbol="OBSCURE_RIGHT"/>
 <entry id="8388714" method="true" symbol="getClockTime"/>
 <entry id="8388775" method="true" symbol="toNumber"/>
-<entry id="8389554" method="true" symbol="onKeyReleased"/>
 <entry id="8389355" symbol="&lt;eng&gt;"/>
 <entry field="true" id="8388860" symbol="SUB_SPORT_RECUMBENT"/>
 <entry id="8389124" method="true" symbol="onUpdate"/>
@@ -325,7 +328,6 @@
 <entry id="8389342" symbol="hours"/>
 <entry id="8389129" symbol="mJustification"/>
 <entry field="true" id="8388748" symbol="averageHeartRate"/>
-<entry id="8389568" method="true" symbol="runTest"/>
 <entry id="8389327" symbol="september"/>
 <entry id="8389132" method="true" symbol="setFont"/>
 <entry field="true" id="8389519" symbol="torque"/>
@@ -345,18 +347,17 @@
 <entry field="true" id="8389498" symbol="bodyWeight"/>
 <entry id="8389435" object="true" symbol="CalculatedWheelDistance"/>
 <entry field="true" id="8389442" symbol="WEIGHT_SCALE_GENDER_FEMALE"/>
-<entry field="true" id="8389561" symbol="KEY_SPORT"/>
 <entry field="true" id="8388911" symbol="distance"/>
 <entry id="8389391" method="true" symbol="testArray"/>
 <entry field="true" id="8388724" symbol="battery"/>
 <entry id="8388948" method="true" symbol="multiply"/>
 <entry id="8389041" object="true" symbol="NumberPicker"/>
-<entry id="8389574" symbol="mPcStack"/>
 <entry field="true" id="8389232" symbol="CHANNEL_TYPE_RX_NOT_TX"/>
 <entry id="8388988" method="true" symbol="backlight"/>
 <entry field="true" id="8388893" symbol="PI"/>
 <entry id="8389344" symbol="seconds"/>
 <entry field="true" id="8388854" symbol="SUB_SPORT_TRACK"/>
+<entry field="true" id="17" symbol="textHeight"/>
 <entry id="8389432" object="true" symbol="CalculatedCrankCadence"/>
 <entry field="true" id="8388651" symbol="session"/>
 <entry field="true" id="8388868" symbol="SUB_SPORT_OPEN_WATER"/>
@@ -459,7 +460,6 @@
 <entry field="true" id="8389145" symbol="wakeTime"/>
 <entry field="true" id="8388938" symbol="month"/>
 <entry field="true" id="8389217" symbol="MSG_CODE_EVENT_RX_FAIL"/>
-<entry id="8389565" method="true" symbol="encodeURL"/>
 <entry id="8389285" method="true" symbol="clearProperties"/>
 <entry field="true" id="8388834" symbol="SPORT_FITNESS_EQUIPMENT"/>
 <entry id="8389369" symbol="&lt;spa&gt;"/>
@@ -485,7 +485,6 @@
 <entry id="8388934" method="true" symbol="momentNative"/>
 <entry field="true" id="8389000" symbol="KEY_DOWN_RIGHT"/>
 <entry id="8388641" module="true" symbol="Math"/>
-<entry field="true" id="8389558" symbol="KEY_START"/>
 <entry id="8389409" module="true" symbol="Toybox_AntPlus"/>
 <entry field="true" id="8388800" symbol="UNKNOWN_ERROR"/>
 <entry id="8388760" object="true" symbol="Float"/>
@@ -506,7 +505,6 @@
 <entry id="8389277" symbol="mProperties"/>
 <entry field="true" id="8389461" symbol="WEIGHT_SCALE_STATUS_COMPLETE"/>
 <entry id="8389439" object="true" symbol="BikePower"/>
-<entry field="true" id="8389572" symbol="mPassed"/>
 <entry id="8389257" method="true" symbol="close"/>
 <entry id="8389489" method="true" symbol="getAdvancedReading"/>
 <entry id="8388713" method="true" symbol="getTimer"/>
@@ -540,14 +538,13 @@
 <entry id="8388612" module="true" symbol="Toybox_Test"/>
 <entry field="true" id="8389411" symbol="BATT_STATUS_NEW"/>
 <entry id="8389028" object="true" symbol="MenuInputDelegate"/>
-<entry field="true" id="11" symbol="rectangle"/>
 <entry id="8388705" method="true" symbol="callback"/>
 <entry field="true" id="8389528" symbol="batteryVoltage"/>
 <entry field="true" id="8389314" symbol="latitude"/>
 <entry id="8388688" method="true" symbol="testSystemError"/>
 <entry id="8388686" method="true" symbol="testLocationDegree"/>
 <entry id="8389368" symbol="&lt;slv&gt;"/>
-<entry id="8388741" symbol="currentPace"/>
+<entry field="true" id="8388741" symbol="currentPace"/>
 <entry field="true" id="8389415" symbol="BATT_STATUS_CRITICAL"/>
 <entry id="8389058" object="true" symbol="Drawable"/>
 <entry field="true" id="8389013" symbol="CLICK_TYPE_RELEASE"/>
@@ -569,17 +566,16 @@
 <entry id="8388769" module="true" object="true" symbol="Rez"/>
 <entry id="8389535" method="true" symbol="persistLocation"/>
 <entry id="8389094" method="true" symbol="setTitle"/>
-<entry field="true" id="8389562" symbol="KEY_CLOCK"/>
 <entry field="true" id="8389074" symbol="BEHAVIOR_ON_MENU"/>
 <entry id="8389052" object="true" symbol="FontResource"/>
 <entry id="8388765" object="true" symbol="Symbol"/>
+<entry field="true" id="12" symbol="drawAmount"/>
 <entry id="8389284" method="true" symbol="deleteProperty"/>
 <entry field="true" id="8389483" symbol="hint"/>
 <entry field="true" id="8388861" symbol="SUB_SPORT_CYCLOCROSS"/>
 <entry id="8389533" module="true" symbol="Toybox_PersistedLocations"/>
 <entry id="8389515" method="true" symbol="getCalculatedWheelSpeed"/>
 <entry id="8388684" object="true" symbol="Object"/>
-<entry field="true" id="8389556" symbol="EXTENDED_KEYS"/>
 <entry id="8388900" method="true" symbol="pow"/>
 <entry id="8389176" object="true" symbol="Dc"/>
 <entry field="true" id="8389230" symbol="NETWORK_PLUS"/>
@@ -592,7 +588,7 @@
 <entry id="8389278" symbol="mPropertiesChanged"/>
 <entry field="true" id="8388970" symbol="TONE_ALERT_HI"/>
 <entry field="true" id="8389174" symbol="TEXT_JUSTIFY_LEFT"/>
-<entry field="true" id="12" symbol="colors"/>
+<entry field="true" id="18" symbol="colors"/>
 <entry id="8388923" method="true" symbol="today"/>
 <entry field="true" id="8389412" symbol="BATT_STATUS_GOOD"/>
 <entry field="true" id="8389222" symbol="MSG_CODE_EVENT_CHANNEL_CLOSED"/>
@@ -600,7 +596,6 @@
 <entry id="8388679" method="true" symbol="testObjectLock"/>
 <entry id="8389095" method="true" symbol="addItem"/>
 <entry field="true" id="8389157" symbol="COLOR_WHITE"/>
-<entry field="true" id="8389550" symbol="PRESS_TYPE_DOWN"/>
 <entry field="true" id="8389165" symbol="COLOR_GREEN"/>
 <entry field="true" id="8388890" symbol="sport"/>
 <entry id="8388693" method="true" symbol="testUserProfile"/>
@@ -624,13 +619,11 @@
 <entry field="true" id="8389175" symbol="TEXT_JUSTIFY_VCENTER"/>
 <entry id="8389372" symbol="&lt;chs&gt;"/>
 <entry id="8388793" method="true" symbol="keys"/>
-<entry id="8389348" symbol="font"/>
-<entry field="true" id="8389557" symbol="KEY_PAGE"/>
+<entry field="true" id="8389348" symbol="font"/>
 <entry id="8389280" method="true" symbol="getInitialView"/>
 <entry field="true" id="8388870" symbol="SUB_SPORT_STRENGTH_TRAINING"/>
 <entry field="true" id="8388858" symbol="SUB_SPORT_MOUNTAIN"/>
 <entry id="8389141" object="true" symbol="Profile"/>
-<entry id="8389573" method="true" symbol="passed"/>
 <entry field="true" id="8389215" symbol="MSG_CODE_RESPONSE_NO_ERROR"/>
 <entry id="8389477" symbol="mDeviceType"/>
 <entry id="8389242" symbol="dataHigh"/>
@@ -703,7 +696,6 @@
 <entry field="true" id="8389211" symbol="MSG_ID_CLOSE_CHANNEL"/>
 <entry id="8389107" method="true" symbol="setBitmap"/>
 <entry id="8388883" method="true" symbol="discard"/>
-<entry id="8389575" symbol="mErrorCode"/>
 <entry field="true" id="8389487" symbol="state"/>
 <entry id="8389353" symbol="&lt;dan&gt;"/>
 <entry field="true" id="8388840" symbol="SPORT_TRAINING"/>
@@ -713,7 +705,7 @@
 <entry field="true" id="8388736" symbol="currentLocation"/>
 <entry field="true" id="8388916" symbol="startOfDay"/>
 <entry field="true" id="8388752" symbol="maxCadence"/>
-<entry id="8389338" symbol="minute"/>
+<entry field="true" id="8389338" symbol="minute"/>
 <entry id="8389086" symbol="mProgressValue"/>
 <entry field="true" id="8389199" symbol="MSG_ID_CHANNEL_ID"/>
 <entry field="true" id="8388836" symbol="SPORT_BASKETBALL"/>
@@ -748,7 +740,6 @@
 <entry field="true" id="8388754" symbol="swimSwolf"/>
 <entry id="8388794" method="true" symbol="values"/>
 <entry id="8389546" symbol="mHeight"/>
-<entry field="true" id="8389559" symbol="KEY_LAP"/>
 <entry id="8389059" object="true" symbol="Bitmap"/>
 <entry id="8388785" symbol="mHigh"/>
 <entry id="8389424" object="true" symbol="DeviceState"/>
@@ -775,6 +766,7 @@
 <entry id="8389328" symbol="october"/>
 <entry field="true" id="8388995" symbol="KEY_ESC"/>
 <entry field="true" id="8389072" symbol="BEHAVIOR_NEXT_PAGE"/>
+<entry field="true" id="13" symbol="numSteps"/>
 <entry field="true" id="8389484" symbol="identificationString"/>
 <entry field="true" id="8389075" symbol="BEHAVIOR_ON_BACK"/>
 <entry id="8389097" method="true" symbol="onKey"/>
@@ -830,7 +822,6 @@
 <entry id="8388667" method="true" symbol="testBitwiseAnd"/>
 <entry id="8388922" method="true" symbol="now"/>
 <entry id="8388780" method="true" symbol="invoke"/>
-<entry id="8389570" symbol="getTestObject"/>
 <entry field="true" id="8388847" symbol="SPORT_HIKING"/>
 <entry id="4" module="true" symbol="globals_Rez_Menus"/>
 <entry id="8388670" method="true" symbol="testShiftL"/>
@@ -846,7 +837,6 @@
 <entry id="8388782" method="true" symbol="size"/>
 <entry id="8388661" method="true" symbol="testBreak"/>
 <entry field="true" id="8388915" symbol="isSleepMode"/>
-<entry id="8389576" method="true" symbol="printStackTrace"/>
 <entry id="8389022" object="true" symbol="InputEvent"/>
 <entry field="true" id="8389452" symbol="WEIGHT_SCALE_ACTIVITY_LEVEL_6"/>
 <entry field="true" id="8389451" symbol="WEIGHT_SCALE_ACTIVITY_LEVEL_5"/>
@@ -884,7 +874,6 @@
 <entry id="8389512" method="true" symbol="getCalculatedPower"/>
 <entry field="true" id="8388872" symbol="SUB_SPORT_MATCH"/>
 <entry id="9" object="true" symbol="WatchFaceView"/>
-<entry id="8389567" method="true" symbol="getNumberOfTests"/>
 <entry field="true" id="8389456" symbol="WEIGHT_SCALE_STATUS_SEARCHING"/>
 <entry id="8389136" method="true" symbol="getKey"/>
 <entry id="8388758" object="true" symbol="Number"/>
@@ -898,7 +887,6 @@
 <entry id="8389062" symbol="mInitialValue"/>
 <entry field="true" id="8389471" symbol="leftTorqueEffectiveness"/>
 <entry field="true" id="8388991" symbol="KEY_LIGHT"/>
-<entry field="true" id="8389552" symbol="PRESS_TYPE_ACTION"/>
 <entry field="true" id="8389139" symbol="GENDER_FEMALE"/>
 <entry field="true" id="8389245" symbol="deviceType"/>
 <entry field="true" id="8389209" symbol="MSG_ID_RESET_SYSTEM"/>
@@ -915,8 +903,8 @@
 <entry id="8389123" method="true" symbol="onShow"/>
 <entry field="true" id="8389273" symbol="searchTimeoutHighPriority"/>
 <entry id="8389253" symbol="setPayloadWithOffset"/>
-<entry id="8389479" method="true" symbol="getDeviceState"/>
 <entry field="true" id="8389169" symbol="COLOR_PURPLE"/>
+<entry id="8389479" method="true" symbol="getDeviceState"/>
 <entry id="8389180" method="true" symbol="drawPoint"/>
 <entry id="8389260" method="true" symbol="sendBroadcast"/>
 <entry field="true" id="8388862" symbol="SUB_SPORT_HAND_CYCLING"/>
@@ -943,7 +931,6 @@
 <entry field="true" id="8388954" symbol="SENSOR_HEARTRATE"/>
 <entry field="true" id="8389207" symbol="MSG_ID_LIB_CONFIG"/>
 <entry id="8389010" object="true" symbol="KeyEvent"/>
-<entry id="8389553" method="true" symbol="onKeyPressed"/>
 <entry field="true" id="8388864" symbol="SUB_SPORT_INDOOR_ROWING"/>
 <entry field="true" id="8388845" symbol="SPORT_ROWING"/>
 <entry field="true" id="8389030" symbol="CONFIRM_YES"/>
@@ -996,6 +983,7 @@
 <entry field="true" id="8389507" symbol="activityLevel"/>
 <entry id="8388640" module="true" symbol="Lang"/>
 <entry id="8389333" symbol="tuesday"/>
+<entry field="true" id="11" symbol="stepBarHeight"/>
 <entry field="true" id="8389018" symbol="SWIPE_LEFT"/>
 <entry id="8388682" method="true" symbol="testNaN"/>
 <entry field="true" id="8389444" symbol="WEIGHT_SCALE_GENDER_UNASSIGNED"/>
