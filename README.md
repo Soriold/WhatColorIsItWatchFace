@@ -10,8 +10,11 @@ The watch face simply consists of a colored background that changes every minute
 A few screenshots (without all features):
 ------
 ![Red Screenshot](https://github.com/dagrooms52/WhatColorIsItWatchFace/blob/master/Screenshots/RedScreenLowSteps.png)
-***
 ![Green Screenshot](https://github.com/dagrooms52/WhatColorIsItWatchFace/blob/master/Screenshots/GreenScreenMidSteps.png)
-***
 ![Blue Screenshot](https://github.com/dagrooms52/WhatColorIsItWatchFace/blob/master/Screenshots/BlueScreenHighSteps.png)
+***
+Screenshots of the completed watch face:
+------
+![Move Bar Empty](https://github.com/dagrooms52/WhatColorIsItWatchFace/blob/master/Screenshots/CompleteOrangeVivoActive.png)
+![Move Bar Full](https://github.com/dagrooms52/WhatColorIsItWatchFace/blob/master/Screenshots/FullMoveBarBlue.png)
 ***
