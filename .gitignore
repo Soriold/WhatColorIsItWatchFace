@@ -1,0 +1,4 @@
+# MonkeyC project .gitignore
+
+*.debug.xml
+*.prg
