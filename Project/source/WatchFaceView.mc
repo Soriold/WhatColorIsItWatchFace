@@ -6,34 +6,34 @@ using Toybox.Math as Math;
 
 class WatchFaceView extends Ui.WatchFace {
 
-	// Variables used by the watch face
-	var i = 				0;
-	var stepBarHeight = 	8;
-	var hour = 				0;
-	var minute = 			0;
-	var drawAmount = 		0;
-	var numSteps = 			0;
-	var stepGoal = 			0;
-	var percentOfGoal = 	0.0;
-	var timeString = 		"";
-	var font = 				Gfx.FONT_NUMBER_MEDIUM;
-	var textDimensions =  	[];
-	var textHeight = 		0;
-		
-	// All available colors
-	var colors = [
-		Gfx.COLOR_RED,
-		Gfx.COLOR_DK_RED,
-		Gfx.COLOR_ORANGE,
-		Gfx.COLOR_YELLOW,
-		Gfx.COLOR_GREEN,
-		Gfx.COLOR_DK_GREEN,
-		Gfx.COLOR_BLUE,
-		Gfx.COLOR_DK_BLUE,
-		Gfx.COLOR_PURPLE,
-		Gfx.COLOR_PINK
-	];
-	
+    // Variables used by the watch face
+    var i =                 0;
+    var stepBarHeight =     8;
+    var hour =              0;
+    var minute =            0;
+    var drawAmount =        0;
+    var numSteps =          0;
+    var stepGoal =          0;
+    var percentOfGoal =     0.0;
+    var timeString =        "";
+    var font =              Gfx.FONT_NUMBER_MEDIUM;
+    var textDimensions =    [];
+    var textHeight =        0;
+
+    // All available colors
+    var colors = [
+        Gfx.COLOR_RED,
+        Gfx.COLOR_DK_RED,
+        Gfx.COLOR_ORANGE,
+        Gfx.COLOR_YELLOW,
+        Gfx.COLOR_GREEN,
+        Gfx.COLOR_DK_GREEN,
+        Gfx.COLOR_BLUE,
+        Gfx.COLOR_DK_BLUE,
+        Gfx.COLOR_PURPLE,
+        Gfx.COLOR_PINK
+    ];
+
 
     //! Load your resources here
     function onLayout(dc) {
@@ -48,62 +48,62 @@ class WatchFaceView extends Ui.WatchFace {
 
     //! Update the view
     function onUpdate(dc) {
-    	View.onUpdate(dc);
+        View.onUpdate(dc);
 
-		var clockTime = Sys.getClockTime();
+        var clockTime = Sys.getClockTime();
 
-		// If it's a minute later, change the color
+        // If it's a minute later, change the color
         if(Sys.getClockTime().min > minute)
         {
-        	i++;
-        	
-        	// Keep i in bounds of integer size
-        	if( i >= colors.size() )
-        	{
-        		i = 0;
-        	}
+            i++;
+
+            // Keep i in bounds of integer size
+            if( i >= colors.size() )
+            {
+                i = 0;
+            }
         }
 
-		dc.setColor(Gfx.COLOR_WHITE, colors[i % colors.size()]);
-		dc.clear();
+        dc.setColor(Gfx.COLOR_WHITE, colors[i % colors.size()]);
+        dc.clear();
 
-		// Puts the current time on the screen
+        // Puts the current time on the screen
         hour = clockTime.hour;
         minute = clockTime.min;
         timeString = Lang.format("$1$:$2$", [hour, clockTime.min.format("%.2d")]);
         textDimensions = dc.getTextDimensions(timeString, font);
         textHeight = textDimensions[1];
-        
+
         // Step counter code
         numSteps = ActivityMonitor.getInfo().steps;
         stepGoal = ActivityMonitor.getInfo().stepGoal;
-        
+
         if(stepGoal < 1)
         {
-        	stepGoal = 10;
+            stepGoal = 10;
         }
-        
+
         percentOfGoal = (numSteps.toFloat() / stepGoal);
-        
+
         if(percentOfGoal > 100)
         {
-        	drawAmount = dc.getWidth();
+            drawAmount = dc.getWidth();
         }
         else
         {
-        	drawAmount = percentOfGoal * dc.getWidth();
+            drawAmount = percentOfGoal * dc.getWidth();
         }
-        
-		numSteps = numSteps.toString();
 
-		// Drawing code
-		dc.setColor(Gfx.COLOR_WHITE, colors[i]);
-		dc.drawText(dc.getWidth() / 2, (dc.getHeight() - textHeight) / 2, Gfx.FONT_NUMBER_HOT, timeString, Gfx.TEXT_JUSTIFY_CENTER);
-    	
-    	// Need to set background to white because documentation is wrong for fillRectangle()
-    	dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_WHITE);
-    	// Docs are wrong, this uses background color
-    	dc.fillRectangle(0, dc.getHeight() - stepBarHeight, drawAmount, stepBarHeight); 
+        numSteps = numSteps.toString();
+
+        // Drawing code
+        dc.setColor(Gfx.COLOR_WHITE, colors[i]);
+        dc.drawText(dc.getWidth() / 2, (dc.getHeight() - textHeight) / 2, Gfx.FONT_NUMBER_HOT, timeString, Gfx.TEXT_JUSTIFY_CENTER);
+
+        // Need to set background to white because documentation is wrong for fillRectangle()
+        dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_WHITE);
+        // Docs are wrong, this uses background color
+        dc.fillRectangle(0, dc.getHeight() - stepBarHeight, drawAmount, stepBarHeight);
     }
 
     //! Called when this View is removed from the screen. Save the
